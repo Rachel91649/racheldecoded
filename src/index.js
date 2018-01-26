@@ -6,6 +6,8 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 //File Imports
 import './index.css';
 import Welcome from './Welcome';
+import About from './About';
+
 //import '../public/css/layout.css'
 //import App from './App';
 import registerServiceWorker from './registerServiceWorker';
@@ -25,6 +27,7 @@ const App = () => (
     </div>
     <div>
       <Route exact path="/" render={Welcome} />
+			<Route path="/about" render={About} />
     </div>
   </div>
 );
