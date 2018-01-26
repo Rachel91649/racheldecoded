@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 import './index.css';
 import Welcome from './Welcome';
 import About from './About';
+import Skills from './Skills';
 
 //import '../public/css/layout.css'
 //import App from './App';
@@ -28,6 +29,7 @@ const App = () => (
     <div>
       <Route exact path="/" render={Welcome} />
 			<Route path="/about" render={About} />
+			<Route path="/skills" render={Skills} />
     </div>
   </div>
 );
