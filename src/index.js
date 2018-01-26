@@ -8,6 +8,7 @@ import './index.css';
 import Welcome from './Welcome';
 import About from './About';
 import Skills from './Skills';
+import Projects from './Projects';
 
 //import '../public/css/layout.css'
 //import App from './App';
@@ -30,6 +31,7 @@ const App = () => (
       <Route exact path="/" render={Welcome} />
 			<Route path="/about" render={About} />
 			<Route path="/skills" render={Skills} />
+			<Route path="/projects" render={Projects} />
     </div>
   </div>
 );
