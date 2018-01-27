@@ -2,7 +2,9 @@ import React from 'react';
 
 const Welcome = () => (
 	<div>
-		<h1 className="heading">Welcome</h1>
+		<h1 className="heading">
+			<a name="Home">Welcome</a>
+		</h1>
 		<img src="" alt="main photo" />
 		<h3>Rachel Naomi | Software Engineer</h3>
 

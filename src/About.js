@@ -3,7 +3,9 @@ import React from 'react';
 
 const About = () => (
 	<div>
-		<h1>About Me</h1>
+		<h1>
+			<a name="About">About</a>
+		</h1>
 		<p>Hi!, My name is Rachel and I'm a software engineer.</p>
 
     <p>Here is a paragraph about the stuff I'm interested in</p>

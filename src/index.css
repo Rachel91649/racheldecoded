@@ -11,6 +11,7 @@ body {
   color: teal;
   font-family: 'Special Elite', cursive;
   padding: 5px;
+  font-size: 3rem;
 }
 .nav:hover{
   color: black
